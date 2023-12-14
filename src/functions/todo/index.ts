@@ -13,6 +13,7 @@ export const createPerson = {
     ],
 };
 
+
 export const getPerson = {
     handler: `${handlerPath(__dirname)}/handler.getPerson`,
     events: [

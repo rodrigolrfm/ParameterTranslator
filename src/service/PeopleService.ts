@@ -1,8 +1,8 @@
 import { DocumentClient } from "aws-sdk/clients/dynamodb";
 
 import People from "../model/People";
-import { PeopleDto } from "src/dto";
-import PeopleMapping from "src/mappers/PeopleMapping";
+import { PeopleDto } from "../dto";
+import PeopleMapping from "../mappers/PeopleMapping";
 
 export default class PeopleServerice {
 
